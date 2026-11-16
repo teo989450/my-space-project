@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Екологія — Візитка річного проєкту (10 клас)</title>
+  <meta name="description" content="Візитка річного навчального проєкту учня 10 класу з екології: опис напряму та чотири формати реалізації (гра, бот, сайт, застосунок).">
+  <style>
+    :root {
+      --bg-color: #F4F7F5;
+      --accent-color: #1B4332;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--accent-color);
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      padding: 3rem 1.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    main {
+      max-width: 840px;
+      width: 100%;
+    }
+
+    header {
+      margin-bottom: 3rem;
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 2rem;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 1.25rem;
+    }
+
+    .description {
+      font-size: 1.125rem;
+      max-width: 72ch;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      border: 2px solid var(--accent-color);
+      padding: 1.75rem;
+      background-color: var(--bg-color);
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .card:hover {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+    }
+
+    .card h2 {
+      font-size: 1.375rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+    }
+
+    .card p {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="badge">Річний проєкт • 10 клас</span>
+      <h1>Екологія та сталий розвиток</h1>
+      <p class="description">
+        Екологія вивчає взаємодію живих організмів між собою та з навколишнім середовищем. Цей річний проєкт спрямований на дослідження стану довкілля та пошук шляхів раціонального використання природних ресурсів. Головна мета роботи полягає у створенні практичного цифрового рішення для підвищення екологічної свідомості.
+      </p>
+    </header>
+
+    <section class="cards" aria-label="Формати реалізації проєкту">
+      <article class="card">
+        <h2>Гра</h2>
+        <p>Інтерактивний симулятор для навчання правилам сортування відходів та ощадливого споживання ресурсів у повсякденному житті.</p>
+      </article>
+
+      <article class="card">
+        <h2>Бот</h2>
+        <p>Автоматизований помічник у месенджері для швидкого пошуку пунктів прийому вторсировини та отримання щоденних екопорад.</p>
+      </article>
+
+      <article class="card">
+        <h2>Сайт</h2>
+        <p>Інформаційна вебплатформа з матеріалами дослідження, інтерактивними пам'ятками та корисними інструментами для збереження природи.</p>
+      </article>
+
+      <article class="card">
+        <h2>Застосунок</h2>
+        <p>Зручний мобільний трекер для обліку особистих екологічних звичок, фіксації прогресу та формування відповідального споживання.</p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
